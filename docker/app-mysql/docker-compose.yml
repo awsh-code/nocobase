@@ -4,7 +4,7 @@ networks:
   
 services:
   app:
-    image: nocobase/nocobase:main
+    image: nocobase/nocobase:latest
     ports:
       - "13000:13000"
     networks:
